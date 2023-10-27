@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal1 {
+  border-radius: 10px;
+  width: 20%;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  display: none;
+  gap: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.modal1 .inputimg {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  outline: none;
+  border: none;
+  background-color: rgba(237, 243, 245, 0.6784313725);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.modal1 .searchbutton {
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #e8c258;
+  border: none;
+  color: white;
+}
+.modal1 .searchbutton:hover {
+  cursor: pointer;
+}
+.modal1 .labels {
+  font-size: 20px;
+}
+.modal1 .inputs {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(237, 243, 245, 0.6784313725);
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.active {
+  display: flex;
+}
+
+.modalButton {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: chartreuse;
+}
+
+.modalButton:hover {
+  cursor: pointer;
+  filter: brightness(95%);
+}
+
+table {
+  position: absolute;
+  width: 20%;
+  top: 550px;
+  left: 768px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.movieimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}/*# sourceMappingURL=style.css.map */
